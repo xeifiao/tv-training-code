@@ -1,7 +1,11 @@
 # tv-training-code
 torchvision对象检测微调教程  https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html
+https://pytorch.apachecn.org/#/docs/1.7/19
+
 
 将官方的一个函数替换，程序便正常运行
+
+
 def get_transform(train):
     transforms = []
     transforms.append(T.PILToTensor())
